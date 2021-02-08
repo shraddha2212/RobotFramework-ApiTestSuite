@@ -21,15 +21,15 @@ Follow below steps for installation:
     - Once everything has been installed you can run test suite from the command line/terminal in the projects folder with below command.
 
 ```
-            robot -d results tests
+            robot -d Results Tests
 ```
     - Once execution is complete under results directory html report(report.html) for the test suite will be generated.
 
     - This test suite contains test cases with two tags one for post Route and one for post comments route.
     - Command to execute tests based on tag is :
 ```
-            robot -d results -i postRoute tests
-            robot -d results -i postCommentsRoute tests
+            robot -d Results -i postRoute Tests
+            robot -d Results -i postCommentsRoute Tests
 ```
 ## Test Cases
 
