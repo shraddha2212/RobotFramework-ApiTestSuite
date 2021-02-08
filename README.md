@@ -1,10 +1,10 @@
-###### Introduction
+## Introduction
 
 This repository contains a Robot Framework API test suite for GET requests scenarios against /posts route of http://jsonplaceholder.typicode.com.
 
 It contains test suite execution report in HTML format (report.html) under Results folder.
 
-###### Installation
+## Installation
 
 Follow below steps for installation:
 
@@ -16,7 +16,7 @@ Follow below steps for installation:
 ```
     - Above command will install robot framework and required supporting library's and their dependancies.
 
-###### Usage
+## Usage
 
     - Once everything has been installed you can run test suite from the command line/terminal in the projects folder with below command.
 
@@ -31,9 +31,9 @@ Follow below steps for installation:
             robot -d results -i postRoute tests
             robot -d results -i postCommentsRoute tests
 ```
-###### Test Cases
+## Test Cases
 
-Test Setup: 
+**Test Setup:** 
 
     - Timeout : Default timeout set for each GET request is 2 seconds
     - Retry count and Retry Interval : Each failed/timed out request will be retried for maximum of 3 times on an interval of 0.5s.
